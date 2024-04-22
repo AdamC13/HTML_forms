@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <form>
+        <label for="userEmail">Email: </label><br>
+        <input type="email" id="userEmail" name="userEmail" aria-label="email"><br>
+
+        <label for="num">Input a number: </label><br>
+        <input type="number" min="0" max="100" step="1" id="num" aria-label="number"><br>
+
+        <label for="date">Date: </label><br>
+        <input type="date" min="2024-01-01" max="2024-12-31" id="date" aria-label="date"><br>
+
+        <label for="rating">Please give us a rating:</label><br>
+        <input type="range" id="rating" min="50" max="100" aria-label="rating"><br>
+
+        <p>Choose your favorite language</p>
+        <input type="radio" id="html" name="fav_language" value="HTML" aria-label="html">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS" aria-label="css">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="Python" name="fav_language" value="Python" aria-label="python">
+        <label for="Python">Python</label><br>
+
+        <p>Choose your level of experience</p>
+        <input type="radio" id="beginner" name="Level" value="beginner" aria-label="beginner">
+        <label for="beginner">Beginner</label><br>
+        <input type="radio" id="intermediate" name="Level" value="intermediate" aria-label="intermediate">
+        <label for="intermediate">Intermediate</label><br>
+        <input type="radio" id="advanced" name="Level" value="advanced" aria-label="advanced">
+        <label for="advanced">Advanced</label>
+
+        <p>Choose your preferred devolopment platforms</p>
+        <input type="checkbox" id="web" name="platforms" value="web" aria-label="web"> 
+        <label for="web">Web</label><br>
+        <input type="checkbox" id="mobile" name="platforms" value="mobile" aria-label="mobile"> 
+        <label for="mobile">Mobile</label><br>
+        <input type="checkbox" id="desktop" name="platforms" value="desktop" aria-label="desktop"> 
+        <label for="desktop">Desktop</label><br>
+
+
+
+        <input type="submit" value="submit" aria-label="submit"> <br>
+
+
+</body>
+</html>
